@@ -13,7 +13,7 @@ public class Main {
         Scanner scanner = new Scanner(in);
 
         //Create an audio file
-        File file = new File("D:\\Java\\Java Audio\\JavaAudio\\Dreams Of River Ganga - Hanu Dixit.wav");
+        File file = new File("D:\\Java\\Java Audio\\JavaAudio\\Audio\\Dreams Of River Ganga - Hanu Dixit.wav");
         //Create AudioInputStream
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         //Clip Object
